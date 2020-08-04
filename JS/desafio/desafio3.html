@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function temHabilidade(skills) {
+            var posicao = skills.indexOf("Javascript")
+            console.log(posicao)
+            if (posicao >= 0) {
+                console.log(true);
+            } 
+            else {
+                console.log(false);
+            }
+        }
+        var skills = ["Javascript", "ReactJS", "React Native", "lucas"];
+        temHabilidade(skills);
+    </script>
+</body>
+
+</html>
